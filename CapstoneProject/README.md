@@ -235,5 +235,3 @@ Currently, two official plugins are available:
 The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 For more on expanding the ESLint configuration for production, see the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) and [`typescript-eslint`](https://typescript-eslint.io).
-
-#EXAMPLE
