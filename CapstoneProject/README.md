@@ -30,21 +30,21 @@ This application recreates a provided mockup as a fully working React web app. I
 
 ## Team Members
 
-| #   | Name                               | GitHub                        |
-| --- | ---------------------------------- | ----------------------------- |
-| 1   | Doro Roland _(Team Lead)_          | https://github.com/Dororoland |
-| 2   | Joan Ikwen _(Assistant Team Lead)_ | https://github.com/jojoIK     |
-| 3   | Ijeoma Ejeh                        | _link to be added_            |
-| 4   | Odunayo                            | _link to be added_            |
-| 5   | Abiodun Ojo                        | _link to be added_            |
-| 6   | Ogundeyi Joshua                    | _link to be added_            |
-| 7   | Emmanuel Benjamin                  | _link to be added_            |
-| 8   | Raodat Oshoala                     | _link to be added_            |
-| 9   | Mohammed Olamilekan                | _link to be added_            |
-| 10  | Annointing Ola                     | _link to be added_            |
-| 11  | Favour Gabriel                     | _link to be added_            |
-| 12  | Ikechukwu Iroegbu                  | _link to be added_            |
-| 13  | Gbenga Taiwo                       | _link to be added_            |
+| # | Name | GitHub |
+|---|------|--------|
+| 1 | Doro Roland _(Team Lead)_ | https://github.com/Dororoland |
+| 2 | Joan Ikwen _(Assistant Team Lead)_ | https://github.com/jojoIK |
+| 3 | Ijeoma Ejeh | https://github.com/ijeomagodspower |
+| 4 | Odunayo | https://github.com/Odunayo1-code |
+| 5 | Abiodun Ojo | https://github.com/Abbeyboyz54 |
+| 6 | Ogundeyi Joshua | https://github.com/Bossboygod |
+| 7 | Emmanuel Benjamin | https://github.com/BiBenjiudo |
+| 8 | Raodat Oshoala | https://github.com/oshoalaraodat-gif | 
+| 9 | Mohammed Olamilekan | https://github.com/mohola1 |
+| 10 | Annointing Ola | https://github.com/ola71656-sudo |
+| 11 | Favour Gabriel | https://github.com/gabfav3898 |
+| 12 | Ikechukwu Iroegbu | https://github.com/Iykestine |
+| 13 | Gbenga Taiwo |https://github.com/GeeTee100 |
 
 ---
 
@@ -68,7 +68,7 @@ You must have the following installed:
 
 1. **Node.js** (v18+) and **npm**
 2. **Git**
-3. A **GitHub account** linked to your editor (see CONTRIBUTING.md)
+3. A **GitHub account** linked to your editor (see README.md)
 
 ---
 
@@ -78,8 +78,8 @@ You must have the following installed:
 # 1. Clone the repository
 git clone https://github.com/Dororoland/TS-Academy-Group-19-Project.git
 
-# 2. Navigate into the project folder
-cd TS-Academy-Group-19-Project
+# 2. Navigate into the project folder path
+cd TS-Academy-Group-19-Project/CapstoneProject
 
 # 3. Install dependencies
 npm install
@@ -88,7 +88,7 @@ npm install
 npm run dev
 ```
 
-The app will be available at [http://localhost:5173](http://localhost:5173)
+The app will be available at [http://localhost:5173](http://localhost:5173) 
 
 ---
 
@@ -193,7 +193,7 @@ _Describe how you verified your work before opening this PR:_
 - [ ] My code follows the agreed folder structure and naming conventions
 - [ ] My branch is named correctly (`feat/` or `fix/` prefix)
 - [ ] My commits are named correctly (`feat:` or `fix:` prefix)
-- [ ] I have read the CONTRIBUTING.md file
+- [ ] I have read the README.md file
 - [ ] I have tested my work on both desktop and mobile view
 - [ ] There are no console errors or warnings
 - [ ] I have tagged at least all fore mentioned reviewers including the team lead.
