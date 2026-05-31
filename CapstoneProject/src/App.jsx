@@ -1,12 +1,39 @@
-import Footer from "./Footer/Footer";
-import './App.css';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
+import Imagesection from './ImageSection/imagesection.jsx'
+import FormSec from './Form Section/form.jsx'
+import Table from './Table Section/table.jsx'
+import VideoSection from './Videos section/Videeosection.jsx'
+
+
+
+
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
     <div>
-      <Footer />
-    </div>
-  );
-}
+     
+     
+   )
+    }
+     
+     
+     
+    
+     
 
-export default App;
+
+
+  </div>
+ 
+
+
+  
+
+
+export default App.
