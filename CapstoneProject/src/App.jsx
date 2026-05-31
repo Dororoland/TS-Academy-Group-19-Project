@@ -18,10 +18,7 @@ function App() {
   return (
     <div>
      
-     <Imagesection/>
      
-     <p><FormSec></FormSec></p>
-     <p><VideoSection/></p>
    
      
      
