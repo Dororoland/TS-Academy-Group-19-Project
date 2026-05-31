@@ -19,7 +19,8 @@ function App() {
     <div>
      
      
-   
+   )
+    }
      
      
      
@@ -29,17 +30,10 @@ function App() {
 
 
   </div>
-  
-
-
-
-
-
-)
+ 
 
 
   
 
-}
 
-export default App
+export default App.
