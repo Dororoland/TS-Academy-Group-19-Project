@@ -1,4 +1,4 @@
-export default function table(){
+function Table(){
     return(
   <div>
         <h3><b>Planetry Fact at a Glance</b></h3>
@@ -93,3 +93,5 @@ export default function table(){
     )
 
 }
+
+ export default Table

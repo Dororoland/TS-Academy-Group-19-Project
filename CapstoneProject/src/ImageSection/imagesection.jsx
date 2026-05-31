@@ -12,14 +12,13 @@ function Imagesection() {
   }, [])
 
 return (
-    <section>
-<h2 className="topic">Visualizing the Differences Between Planets</h2>
+    <section className="imagesection">
+<section className="imagetext"><h2 className="topic">Visualizing the Differences Between Planets</h2>
     <p className="text">Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight
-        how vastly different terrestrial planets are from gas giants and ice giants.</p>
-       <div className="container">
-    
-
-      <div className="grid">
+        how vastly different terrestrial planets are from gas giants and ice giants.</p></section>
+      
+      <div className="container">
+     <div className="grid">
         {planets.map((planet, index) => (
           
           <div className="card" key={index}>
