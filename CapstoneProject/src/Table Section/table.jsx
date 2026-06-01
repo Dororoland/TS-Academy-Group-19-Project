@@ -1,7 +1,9 @@
-function Table(){
+import './table.css'
+
+function Table() {
     return(
   <div>
-        <h3><b>Planetry Fact at a Glance</b></h3>
+        <h3>Planetry Fact at a Glance</h3>
    <p> Below is a comparative table of major planets in our solar system. The data highlight key physical<br> properties used by astronomers and researchers worldwide.</br></p>
    <p><strong>Data about the planets of our solar system (Planetary facts taken from NASA)</strong></p>
    <table border="1" cellpadding="10" cellspacing="0" width="100%">
