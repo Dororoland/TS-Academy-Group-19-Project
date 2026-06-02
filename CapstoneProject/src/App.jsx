@@ -10,35 +10,9 @@ function App() {
 
   return (
     <div>
-     
-     
-   
-     
-     
-     
     
-     
-
-
-
-  </div>
-  
-
-
-
-
-
-)
-
-
-    return (
-
-    <div>
-      <FormSec/>
     </div>
-  )
-}
-  
-
-
-export default App
+   )
+    }
+     
+     export default App
