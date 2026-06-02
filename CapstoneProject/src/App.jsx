@@ -8,6 +8,7 @@ import FormSec from './Form Section/form.jsx'
 import Table from './Table Section/table.jsx'
 import VideoSection from './Videos section/Videeosection.jsx'
 import Footer from './Footer/Footer.jsx'
+import Header from './Header/Header.jsx'
 
 
 
