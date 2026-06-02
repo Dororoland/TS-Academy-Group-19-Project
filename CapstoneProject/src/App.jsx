@@ -1,18 +1,9 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import Form from './Form Section/form'
 import './App.css'
-import Imagesection from './ImageSection/imagesection.jsx'
-import FormSec from './Form Section/form.jsx'
-import Table from './Table Section/table.jsx'
-import VideoSection from './Videos section/Videeosection.jsx'
-import Footer from './Footer/Footer.jsx'
-import Header from './Header/Header.jsx'
-
-
-
-
+import FormSec from './Form Section/form'
 
 function App() {
   const [count, setCount] = useState(0)
