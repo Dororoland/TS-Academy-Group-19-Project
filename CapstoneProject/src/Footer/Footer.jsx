@@ -1,6 +1,7 @@
 import "./Footer.css";
 
 export default function Footer() {
+
   const teamMembers = [
     { name: "Doro Roland", github: "https://github.com/Dororoland" },
     { name: "Joan Ikwen", github: "https://github.com/jojoIK" },
@@ -16,6 +17,7 @@ export default function Footer() {
     { name: "Ikechukwu Iroegbu", github: "https://github.com/Iykestine" },
     { name: "Gbenga Taiwo", github: "https://github.com/GeeTee100" }
   ];
+  
   return (
     <footer className="footer">
 
