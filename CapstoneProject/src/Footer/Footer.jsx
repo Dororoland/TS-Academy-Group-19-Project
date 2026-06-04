@@ -3,8 +3,8 @@ import "./Footer.css";
 export default function Footer() {
 
   const teamMembers = [
-    { name: "Doro Roland", role: "Team Lead", github: "https://github.com/Dororoland" },
-    { name: "Joan Ikwen", role: "Assistant Team Lead", github: "https://github.com/jojoIK" },
+    { name: "Doro Roland", github: "https://github.com/Dororoland" },
+    { name: "Joan Ikwen", github: "https://github.com/jojoIK" },
     { name: "Ijeoma Ejeh", github: "https://github.com/ijeomagodspower" },
     { name: "Odunayo", github: "https://github.com/Odunayo1-code" },
     { name: "Abiodun Ojo", github: "https://github.com/Abbeyboyz54" },
@@ -24,14 +24,10 @@ export default function Footer() {
       {/* ABOUT SECTION */}
       <div className="footer-section">
         <h3>About</h3>
-        <p>
-          TS Academy Group 19 — Solar System Data Explorer built with React.
-        </p>
       </div>
 
       {/* TEAM MEMBERS */}
       <div className="footer-section">
-        <h3>Team Members</h3>
 
         <ul className="team-list">
           {teamMembers.map((member) => (
@@ -50,10 +46,20 @@ export default function Footer() {
 
       {/* FOOTER BOTTOM */}
       <div className="footer-bottom">
-        <hr />
-        <p>© 2026 TS Academy Group 19. All rights reserved.</p>
+        <hr className="footer-divider" />
+        <p className="paragraph-one">© 2026 Designed by <a href="https://amakandukwu.com/" className="footer-link">Amaka</a> & <a href="https://www.linkedin.com/in/ifeomaokocha" className="footer-link">Ifeoma A</a>.</p>
+        <div className="flex-container">
+            <p className="paragraph-two">Built by <a href="https://github.com/Dororoland/TS-Academy-Group-19-Project" className="footer-link">Group 19.</a></p>
+        {/* A DIV FOR ADDING GAP WHILE STYLING */}
+            <div className="flex-gap-container">
+                <p>All rights reserved</p>
+        <a href="https://tsacademyonline.com/" className="footer-link">TSAcademy</a>
+            </div>
+        </div>
       </div>
 
     </footer>
   );
 }
+
+{/*  */}
