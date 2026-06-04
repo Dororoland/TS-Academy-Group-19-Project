@@ -4,7 +4,7 @@ import './table.css'
 function Table() {
   return (
 
-     <div class="container">
+     <div className="container">
         <h1>Planetary Facts at a Glance</h1>
 
         <p>
@@ -27,7 +27,7 @@ function Table() {
 
           <tbody>
             <tr>
-              <td colspan="2" rowspan="4" class="group">Terrestrial Planets</td>
+              <td colspan="2" rowspan="4" className="group">Terrestrial Planets</td>
               <td>Mercury</td>
               <td>0.330</td>
               <td>4,879</td>
@@ -60,8 +60,8 @@ function Table() {
             </tr>
 
             <tr>
-              <td rowspan="4" class="group">Jovian Planets</td>
-              <td rowspan="2" class="sub-group">Gas Giants</td>
+              <td rowspan="4" className="group">Jovian Planets</td>
+              <td rowspan="2" className="sub-group">Gas Giants</td>
               <td>Jupiter</td>
               <td>0.330</td>
               <td>4,879</td>
@@ -78,7 +78,7 @@ function Table() {
             </tr>
 
             <tr>
-              <td rowspan="2" class="sub-group">Ice Giants</td>
+              <td rowspan="2" className="sub-group">Ice Giants</td>
               <td>Uranus</td>
               <td>0.330</td>
               <td>4,879</td>
@@ -95,7 +95,7 @@ function Table() {
             </tr>
 
             <tr>
-              <td colspan="2" class="group">Dwarf Planets</td>
+              <td colspan="2" className="group">Dwarf Planets</td>
               <td>Pluto</td>
               <td>0.330</td>
               <td>4,879</td>
