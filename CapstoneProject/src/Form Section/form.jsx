@@ -62,27 +62,31 @@ Interested in learning more about space, astronomy, or how planetary data is col
 
             <form onSubmit={submitHandler}>   
                 <div className='form-container'>
+<div className='innerform-container'> 
 
-                    <label className='input-label'>Full Name</label>
-                    <input type='text' name='Fullname' className='inputs' placeholder='Full Name' value={fullName} onChange={(e) => setName(e.target.value)}  required></input>
-
-
-                    <label className='input-label'>Email</label>
-                    <input type='email' name='email' className='inputs' placeholder='example@example.com' value={email} onChange={(e) => setEmail(e.target.value)}  required></input>
-
-
-                    <label className='input-label'>Phone Number</label>
+<label className='input-label'>Full Name<span>*</span></label>
+     <input type='text' name='Fullname' className='inputs' placeholder='Full Name' value={fullName} onChange={(e) => setName(e.target.value)}  required></input>
+</div>
+    
+<div className='innerform-container'> 
+     <label className='input-label'>Email<span>*</span></label>
+    <input type='email' name='email' className='inputs' placeholder='example@example.com' value={email} onChange={(e) => setEmail(e.target.value)}  required></input>
+     </div>
+     
+     <div className='innerform-container'>
+        
+        <label className='input-label'>Phone Number<span>*</span></label>
                     <input type='number' name='phonenumber' className='inputs' placeholder='Please enter a valid phone number' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)}  required></input>
-
-
-                    <label className='input-label' >Message</label>
-                    <input type='text' name='message' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>
-
-                </div>
-
+        </div>
+        
+        <div className='innerform-container'> 
+            <label className='input-label' >Message<span>*</span></label>
+                    <input type='text' name='message' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>100 characters
+                    </div>
+          </div>
                 <div className='button-container'>
                     <button type='submit' className='form-btn'>
-                        Submit
+                        Submit 
                     </button>
                 </div>
            </form>
