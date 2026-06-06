@@ -9,7 +9,6 @@
     align-items: flex-start;
     }
     
-    
 
     .text-sect h2 {
     font-size: 2rem;
@@ -32,11 +31,21 @@
     }
     
     .form-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     width: 100%;
     }
+    .innerform-container{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        
+    }
+    .input-label span{
+        color: red;
+    }
+
     
     .input-label {
     font-size: 0.85rem;
@@ -77,9 +86,13 @@
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
     transition: background 0.2s;
     }
     
     .form-btn:hover {
     background-color: #0000cc;
+
     }
