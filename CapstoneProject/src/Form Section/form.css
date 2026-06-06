@@ -1,98 +1,154 @@
 .form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 60px 40px;
+  width: 90%;
+  margin: 120px auto;
+  font-family: inter;
+  align-items: flex-start;
+}
+
+.text-sect h2 {
+  font-family: inter;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #164baf;
+  margin-bottom: 16px;
+  line-height: 1.3;
+}
+
+.text-sect p {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 0.95rem;
+  width: 750px;
+  color: #0f2a44;
+  line-height: 1.6;
+}
+
+form {
+  flex: 1;
+  width: 100%;
+}
+
+.form-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+.innerform-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.innerform-container p {
+  margin-left: -5px;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: inter;
+  color: #acacac;
+}
+
+.input-label span {
+  color: red;
+}
+
+.input-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #222;
+  display: block;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.inputs {
+  width: 100%;
+  padding: 15px 14px;
+  border: 1.5px solid;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #acacac;
+  outline: none;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+.inputs:focus {
+  color: #1e5dd3;
+  background-color: #f8fcff;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.form-btn {
+  background-color: #164baf;
+  color: white;
+  border: none;
+  gap: 15px;
+  padding: 12px 100px 12px 100px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inter;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  transition: background 0.2s;
+}
+
+.form-btn:hover {
+  background-color: #051540;
+}
+
+/*  CSS for mobile responsiveness */
+
+@media (max-width: 768px) {
+  .form-section {
+    padding: 40px 20px;
+    margin: 80px auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 60px 40px;
-    max-width: 900px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    align-items: flex-start;
-    }
-    
+    justify-content: center;
+    align-items: center;
+  }
 
-    .text-sect h2 {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #1a1aff;
-    margin-bottom: 16px;
-    line-height: 1.3;
-    }
-    
-    .text-sect p {
-    font-size: 0.95rem;
-    color: #333;
-    line-height: 1.6;
-    }
-    
-    
-    form {
-    flex: 1;
-    width: 100%;
-    }
-    
-    .form-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    width: 100%;
-    }
-    .innerform-container{
-        display: flex;
-        flex-direction: column;
-        gap: 6px;
-        
-    }
-    .input-label span{
-        color: red;
-    }
+  .text-sect h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
 
-    
-    .input-label {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #222;
-    display: block;
-    text-align: left;
-    margin-bottom: 4px;
-    
-    }
-    
-    .inputs {
+  .text-sect p {
     width: 100%;
-    padding: 10px 14px;
-    border: 1px solid; 
-    border-radius: 6px;
     font-size: 0.9rem;
-    color: #333;
-    outline: none;
-    box-sizing: border-box;
-    transition: 0.2s;
-    }
-    .inputs-focus{
-        border-color: 0 0 0 3px rgba(26, 26, 255,0.1);
-    }
-    
-    .button-container {
-    margin-top: 20px;
-    }
-    
-    
-    .form-btn {
-    background-color: #1a1aff;
-    color: white;
-    border: none;
-    padding: 12px 28px;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: left;
-    display: flex;
-    justify-content: flex-start;
-    transition: background 0.2s;
-    }
-    
-    .form-btn:hover {
-    background-color: #0000cc;
+    text-align: center;
+  }
 
-    }
+  .form-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-btn {
+  background-color: #164baf;
+  width: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
