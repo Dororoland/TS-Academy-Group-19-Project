@@ -84,7 +84,7 @@ Interested in learning more about space, astronomy, or how planetary data is col
         
         <div className='innerform-container'> 
             <label className='input-label' >Message<span>*</span></label>
-            <input type='text' name='message' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>
+            <input type='text' name='message' id='message-input' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>
             <p>100 characters</p>
         </div>
 
