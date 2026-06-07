@@ -5,15 +5,15 @@ function Table() {
   return (
 
      <div className="container">
-        <h1>Planetary Facts at a Glance</h1>
+        <h2>Planetary Facts at a Glance</h2>
 
         <p>
           Below is a comparative table of major planets in our solar system.
           The data highlights key physical properties used by astronomers and researchers worldwide.
         </p>
-
-        <p>Data about the planets of our solar system (Planetary facts taken from NASA)</p>
+ 
         <table>
+          <caption>Data about the planets of our solar system (Planetary facts taken from NASA)</caption>
           <thead>
             <tr>
               <th colspan="2"></th>
