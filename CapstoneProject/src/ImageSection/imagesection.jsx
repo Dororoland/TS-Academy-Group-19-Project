@@ -17,7 +17,7 @@ return (
     <p className="text">Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight
         how vastly different terrestrial planets are from gas giants and ice giants.</p></section>
       
-      <div className="container">
+      {/* <div className="container"> */}
      <div className="grid">
         {planets.map((planet, index) => (
           
@@ -30,7 +30,7 @@ return (
           </div>
         ))}
       </div>
-    </div>
+    {/* </div> */}
 
    </section>
 )

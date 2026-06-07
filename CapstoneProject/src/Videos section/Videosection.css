@@ -3,7 +3,7 @@
 .video-section {
   background-color: #fff;
   height: 100vh;
-  padding: 100px 80px;
+  padding: 24px 20px;
 }
 .video-section-container {
   max-width: 1200px;
@@ -22,8 +22,8 @@
 }
 
 video {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   overflow: hidden;
   border: 1px solid #000;
   border-radius: 30px;
