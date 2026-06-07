@@ -8,9 +8,8 @@
     align-items: center;
     box-sizing: border-box;
     width: 100%;
-    min-height: 100vh;
     flex-direction: column;
-    padding: 24px 20px;
+    padding: 2rem 2rem;
 }
 
 /* Header; Logo */
@@ -21,8 +20,7 @@
     justify-content: center;
     width: 100%;
     gap: 8px;
-    margin-bottom: 16px;
-    /* padding: 16px; */
+    margin-bottom: 1rem;
 }
 
 
@@ -40,7 +38,7 @@
 
 .description {
     text-align: end;
-
+    
     >p {
         font-size: 0.5rem;
         margin-left: 16px;
@@ -50,7 +48,7 @@
     >h4 {
         font-weight: 1000;
         font-size: 1.2em;
-        margin: 25px 0 0 0;
+        margin: 45px 4px -5px 0;
         
     }
 }
@@ -100,8 +98,7 @@
 .picture-side img {
     object-fit: contain;
     margin-left: auto;
-    /* background-color: orange;  */
-}
+}     
 
 /* Buttons */
 .buttons {
