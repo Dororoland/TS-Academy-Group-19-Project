@@ -137,7 +137,8 @@ form {
   }
 
   #message-input {
-    height: 100px;
+    /* height: 100px; */
+    padding:20px 15px 80px 15px;
   }
 
   .form-container {
