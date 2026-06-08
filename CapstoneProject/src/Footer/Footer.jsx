@@ -3,19 +3,20 @@ import "./Footer.css";
 export default function Footer() {
 
   const teamMembers = [
-    { name: "Doro Roland", github: "https://github.com/Dororoland" },
-    { name: "Joan Ikwen", github: "https://github.com/jojoIK" },
-    { name: "Ijeoma Ejeh", github: "https://github.com/ijeomagodspower" },
+    { name: "Doro", github: "https://github.com/Dororoland" },
+    { name: "Joan", github: "https://github.com/jojoIK" },
+    { name: "Ijeoma", github: "https://github.com/ijeomagodspower" },
     { name: "Odunayo", github: "https://github.com/Odunayo1-code" },
-    { name: "Abiodun Ojo", github: "https://github.com/Abbeyboyz54" },
-    { name: "Ogundeyi Joshua", github: "https://github.com/Bossboygod" },
-    { name: "Benamin Udo", github: "https://github.com/BiBenjiudo" },
-    { name: "Raodat Oshoala", github: "https://github.com/oshoalaraodat-gif" },
-    { name: "Mohammed Olamilekan", github: "https://github.com/mohola1" },
-    { name: "Annointing Ola", github: "https://github.com/ola71656-sudo" },
-    { name: "Favour Gabriel", github: "https://github.com/gabfav3898" },
-    { name: "Ikechukwu Iroegbu", github: "https://github.com/Iykestine" },
-    { name: "Gbenga Taiwo", github: "https://github.com/GeeTee100" }
+    { name: "Abiodun", github: "https://github.com/Abbeyboyz54" },
+    { name: "Joshua", github: "https://github.com/Bossboygod" },
+    { name: "Benjamin", github: "https://github.com/BiBenjiudo" },
+    { name: "Raodat", github: "https://github.com/oshoalaraodat-gif" },
+    { name: "Mohammed", github: "https://github.com/mohola1" },
+    { name: "Annointing", github: "https://github.com/ola71656-sudo" },
+    { name: "Gabriel", github: "https://github.com/gabfav3898" },
+    { name: "Ikechukwu", github: "https://github.com/Iykestine" },
+    { name: "Gbenga", github: "https://github.com/GeeTee100" },
+    { name: "Armstrong", github: "https://github.com/Armzy2" }
   ];
   
   return (
@@ -24,6 +25,12 @@ export default function Footer() {
       {/* ABOUT SECTION */}
       <div className="footer-section">
         <h3>About</h3>
+        <p className="about-paragraph">
+          This project is a capstone project for the TS Academy Frontend Development course.
+          It is a collaborative effort by a group of talented developers who have come together to create 
+          a comprehensive and functional web page. The project showcases the skills and knowledge acquired 
+          throughout the course, demonstrating proficiency in frontend development technologies and best practices.
+        </p>
       </div>
 
       {/* TEAM MEMBERS */}
