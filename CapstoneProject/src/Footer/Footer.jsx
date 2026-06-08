@@ -35,6 +35,8 @@ export default function Footer() {
 
       {/* TEAM MEMBERS */}
       <div className="footer-section">
+        
+        <h3 className='teamname'>Team</h3>
 
         <ul className="team-list">
           {teamMembers.map((member) => (
@@ -68,5 +70,3 @@ export default function Footer() {
     </footer>
   );
 }
-
-{/*  */}

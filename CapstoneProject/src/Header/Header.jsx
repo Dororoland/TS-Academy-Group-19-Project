@@ -2,7 +2,7 @@ import "./header.css"
 import groupLogo from '../assets/Group.png';
 import planet from '../assets/21fbbe77-184a-4cce-8c3c-fd483dc76e0a 1.png';
 
-// gggg
+ 
 export default function Header() {
     return (
         <div className="header-section">

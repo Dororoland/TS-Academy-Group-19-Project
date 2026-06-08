@@ -1,6 +1,6 @@
 import './table.css'
 
-// mmm
+
 function Table() {
   return (
 

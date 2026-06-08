@@ -2,19 +2,13 @@
 
 
 .container {
-    font-family: 'Inter', sans-serif;
-<<<<<<< HEAD
-    width: 100%;
-    background: white;
-    
-=======
+    /* font-family: 'Inter', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     background: white;
     padding-top: 1.25rem;
->>>>>>> 316e072b2f34da323a77788fbe67add7d6ca1310
     border-radius: 15px;
     padding-left: 5rem;
     padding-right: 5rem;

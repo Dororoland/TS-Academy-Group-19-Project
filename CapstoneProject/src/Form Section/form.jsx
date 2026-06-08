@@ -1,6 +1,8 @@
-// import form css 
+
 import { use, useState } from 'react'
 import './form.css'
+import buttonicon from  '../assets/btn-arrow.svg'
+
 
 
 // form input event handler
@@ -58,46 +60,56 @@ export default function FormSec() {
                 <p>
 Interested in learning more about space, astronomy, or how planetary data is collected and analyzed? Reach out and we’ll get back to you.
                 </p>
+                
+
             </div>
 
-            <form onSubmit={submitHandler}>   
-                <div className='form-container'>
-<div className='innerform-container'> 
+<form onSubmit={submitHandler}>   
+   <div className='form-container'>
 
-<label className='input-label'>Full Name<span>*</span></label>
-     <input type='text' name='Fullname' className='inputs' placeholder='Full Name' value={fullName} onChange={(e) => setName(e.target.value)}  required></input>
-</div>
+        <div className='innerform-container'> 
+            <label className='input-label'>Full Name<span>*</span></label>
+            <input type='text' name='Fullname' className='inputs' placeholder='Full Name' value={fullName} onChange={(e) => setName(e.target.value)}  required></input>
+        </div>
     
-<div className='innerform-container'> 
-     <label className='input-label'>Email<span>*</span></label>
-    <input type='email' name='email' className='inputs' placeholder='example@example.com' value={email} onChange={(e) => setEmail(e.target.value)}  required></input>
-     </div>
+        <div className='innerform-container'> 
+            <label className='input-label'>Email<span>*</span></label>
+            <input type='email' name='email' className='inputs' placeholder='example@example.com' value={email} onChange={(e) => setEmail(e.target.value)}  required></input>
+        </div>
      
-     <div className='innerform-container'>
-        
-        <label className='input-label'>Phone Number<span>*</span></label>
-                    <input type='number' name='phonenumber' className='inputs' placeholder='Please enter a valid phone number' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)}  required></input>
+        <div className='innerform-container'>
+            <label className='input-label'>Phone Number<span>*</span></label>
+            <input type='number' name='phonenumber' className='inputs' placeholder='Please enter a valid phone number.' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)}  required></input>
         </div>
         
         <div className='innerform-container'> 
             <label className='input-label' >Message<span>*</span></label>
-                    <input type='text' name='message' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>100 characters
-                    </div>
-          </div>
-                <div className='button-container'>
-                    <button type='submit' className='form-btn'>
-                        Submit 
-                    </button>
-                </div>
-           </form>
+            <input type='text' name='message' id='message-input' className='inputs' maxLength={100} placeholder='Enter your message' value={message} onChange={(e) => setMessage(e.target.value)} required></input>
+            <p>100 characters</p>
+        </div>
 
-        </section>
+    </div>
+
+
+        <div className='button-container'>
+            <button type='submit' className='form-btn'>
+                Submit
+                    <img
+                        src={buttonicon}
+                        alt="Company logo"
+                        width={15}
+                        height={15}
+                        loading="lazy"
+                    />
+            </button>
+        
+        </div>
+    </form>
+
+</section>
 
 
     )
 
     
 }
-
-
-
