@@ -35,7 +35,7 @@ This application recreates a provided mockup as a fully working React web app. I
 | 1 | Doro Roland _(Team Lead)_ | https://github.com/Dororoland |
 | 2 | Joan Ikwen _(Assistant Team Lead)_ | https://github.com/jojoIK |
 | 3 | Ijeoma Ejeh | https://github.com/ijeomagodspower |
-| 4 | Odunayo | https://github.com/Odunayo1-code |
+| 4 | Odunayo Ajayi| https://github.com/Odunayo1-code |
 | 5 | Abiodun Ojo | https://github.com/Abbeyboyz54 |
 | 6 | Ogundeyi Joshua | https://github.com/Bossboygod |
 | 7 | Emmanuel Benjamin | https://github.com/BiBenjiudo |
@@ -45,6 +45,7 @@ This application recreates a provided mockup as a fully working React web app. I
 | 11 | Favour Gabriel | https://github.com/gabfav3898 |
 | 12 | Ikechukwu Iroegbu | https://github.com/Iykestine |
 | 13 | Gbenga Taiwo |https://github.com/GeeTee100 |
+| 14 | Emereonye Armstrong |https://github.com/Armzy2 |
 
 ---
 

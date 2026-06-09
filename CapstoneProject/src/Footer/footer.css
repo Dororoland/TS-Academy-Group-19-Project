@@ -2,90 +2,121 @@
 
 
 .footer {
-     font-family: 'inter', sans-serif;
+    font-family: 'inter', sans-serif;
     background-color: #051540;
     color: white;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display:flex;
-    
-}
-
-h3 {
-    font-size: 1rem;
-    padding-bottom: 1.5rem;
-    padding-top:1.5rem;
-}
-
-.teamname{
-    font-size: 1rem;
-    padding-bottom: 1.5rem;
-    padding-top:1.5rem;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-link {
-    font-size: 20px;
-}
-
-.team-list {
-    font-size: 20px;
-    list-style: none;
-    /* padding-bottom: 20px; */
-    background-color: red;
-}
-
-p {
-    font-size: 20px;
-    line-height: 1;
-    padding: 5px;
-}
-
-.paragraph-one {
-    padding-top: 20px;
-}
-
-.flex-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     display: flex;
     flex-direction: column;
+
+    >div {
+        h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            padding-bottom: 1rem;
+            padding-top: 1.5rem;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 180%;
+        }
+
+    }
 }
 
-.flex-gap-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.footer-section {
+    .team-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+        line-height: 180%;
+    }
 }
 
-.footer-divider {
+hr {
+    margin-top: 2rem;
     border-color: #FFFFFF70;
 }
 
-/* PC/Desktop View */
-
-@media (min-width: 1024px) {
-    .footer {
-        width: 100%;
-        padding: 100px;
-        padding-bottom: 50px;
+.footer-bottom {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    
+    .paragraph-one {
+        padding-top: 1rem;
     }
 
     .flex-container {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
+
 
     .flex-gap-container {
-        display: flex;
-        flex-direction: row;
-        gap: 355px;
+        padding-top: 1rem;
+    }
+}
+
+
+
+/* PC/Desktop View */
+
+@media (min-width: 720px) {
+    .footer {
+        width: 100%;
+        padding: 3rem;
+        padding-bottom: 2.5rem;
+        padding-left: 5rem;
+        padding-right: 5rem;
+
+        >div {
+            h3 {
+                font-size: 1.5rem;
+            }
+        }
     }
 
-    
+    .footer-section {
+        .team-list {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            list-style: none;
+            line-height: 500%;
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-direction: row;
+        gap: 48rem;
+
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .row-flex {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5rem;
+        }
+
+        .flex-gap-container {
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+        }
+    }
+
 }

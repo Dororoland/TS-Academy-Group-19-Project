@@ -22,7 +22,7 @@
 
     p {
         color: #0F2A44;
-        width: 60rem;
+        width: 55rem;
         text-align: left;
         margin-bottom: 1.25rem;
         line-height: 1.5;
@@ -39,7 +39,6 @@
         width: 100%;
         border-collapse: collapse;
         overflow: hidden;
-        /* margin: 20px auto 0 auto; */
         border: 1px solid #FFFFFF;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
