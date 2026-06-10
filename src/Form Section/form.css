@@ -120,7 +120,7 @@ form {
   .form-section {
     padding: 40px 2rem;
     margin: 80px auto;
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
