@@ -54,8 +54,8 @@ This application recreates a provided mockup as a fully working React web app. I
 | Component      | Description                                  | Worked on by                                                |
 | -------------- | -------------------------------------------- | ----------------------------------------------------------- |
 | `Header`       | Hero section, CTA buttons, scroll logic      | Joan Ikwen                                                  |
-| `VideoSection` | Autoplay looping planet video + text         | Joshua Ogundeyi, Abiodun Ojo                                |
-| `Gallery`      | API fetch, planet cards with figure elements | Doro Roland, Ikechukwu Iroegbu, Anointing Ola, Gbenga Taiwo |
+| `VideoSection` | Autoplay looping planet video + text         | Joshua Ogundeyi, Abiodun Ojo, Emereonye Armstrong  , Gbenga Taiwo                             |
+| `Gallery`      | API fetch, planet cards with figure elements | Doro Roland, Ikechukwu Iroegbu, Anointing Ola               |
 | `Table`        | NASA planetary facts comparative table       | Raodat Oshoala, Mohammed Olamilekan                         |
 | `Form`         | Contact form with validation + submission    | Odunayo, Ijeoma Ejeh                                        |
 | `Footer`       | About section, links, copyright              | Emmanuel Benjamin, Favour Gabriel                           |
