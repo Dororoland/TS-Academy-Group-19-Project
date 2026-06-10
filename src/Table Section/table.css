@@ -79,3 +79,14 @@
     width: 7%;
     color: #212121;
 }
+
+/* Mobile view */
+@media (min-width: 720px) {
+    .container {
+        padding: 2.5rem 2rem;
+    }
+
+    p {
+        width: 100%;
+    }
+}
