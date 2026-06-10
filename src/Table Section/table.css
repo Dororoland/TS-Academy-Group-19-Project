@@ -12,7 +12,7 @@
     border-radius: 15px;
     padding-left: 5rem;
     padding-right: 5rem;
-    overflow-x: auto;
+    /* overflow-x: auto; */
 
     h2 {
         color: #164BAF;
@@ -43,7 +43,7 @@
         border: 1px solid #FFFFFF;
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
-
+        min-width: 320px;
     }
 
     thead th {
