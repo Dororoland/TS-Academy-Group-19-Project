@@ -83,13 +83,13 @@
 @media (max-width: 720px) {
     .container {
         padding: 2.5rem 2rem;
+    }
 
-        h2 {
-            text-align: center;
-        }
+    h2 {
+        text-align: center;
+    }
 
-        p {
-            text-align: center;
-        }
+    p {
+        text-align: center;
     }
 }
