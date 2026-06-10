@@ -82,5 +82,10 @@
 @media (max-width: 730px) {
     .container {
         padding: 2.5rem 2rem;
+
+        p {
+            text-align: center;
+        }
     }
+    
 }
