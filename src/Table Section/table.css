@@ -12,8 +12,7 @@
     border-radius: 15px;
     padding-left: 5rem;
     padding-right: 5rem;
-    /* overflow-x: auto; */
-    background-color: green;
+    overflow-x: auto;
 
     h2 {
         color: #164BAF;
