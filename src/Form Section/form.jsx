@@ -51,7 +51,7 @@ export default function FormSec() {
 
 
     return (
-        <section className='form-section'>
+        <section id="form" className='form-section'>
             
             <div className='text-sect'>
                 <h2>

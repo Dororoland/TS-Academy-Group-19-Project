@@ -2,7 +2,11 @@ import "./header.css"
 import groupLogo from '../assets/Group.png';
 import planet from '../assets/21fbbe77-184a-4cce-8c3c-fd483dc76e0a 1.png';
 
- 
+const scrollToSection = (id) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+}
+
 export default function Header() {
     return (
         <div className="header-section">
@@ -31,16 +35,16 @@ export default function Header() {
                     </h1>
 
                     <p>
-                        Understand the planets not just by name, but by measurable 
-                        facts. From size and mass to gravity and density, this page 
+                        Understand the planets not just by name, but by measurable
+                        facts. From size and mass to gravity and density, this page
                         breaks down the solar system in a clear, data-driven way.
                     </p>
 
                     <div className="buttons">
-                        <button>
+                        <button onClick={() => scrollToSection("images")}>
                             Explore the Data
                         </button>
-                        <button id="contact">
+                        <button id="contact" onClick={() => scrollToSection("form")}>
                             Contact Us
                         </button>
                     </div>

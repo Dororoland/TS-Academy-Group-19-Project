@@ -1,44 +1,45 @@
-.imagesection{
+.imagesection {
   background-color: #F2F7FF;
-  padding:40px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
-  padding-left:2rem;
-  padding-right:2rem;
-  
+  padding-left: 5rem;
+  padding-right: 5rem;
+
 }
-.imagetext{
- 
+
+.imagetext {
+
   /* width: 100%; */
   display: flex;
   flex-direction: column;
   /* margin: 0 auto 32px auto; */
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 
-.topic{
-    font-family: "inter", sans-serif;
-    font-size: 1.5rem;
-    color:#164BAF;
-    text-align: center;
+.topic {
+  font-family: "inter", sans-serif;
+  font-size: 1.5rem;
+  color: #164BAF;
+  text-align: center;
 
 }
 
 
-.text{
-    font-family: "inter", sans-serif;
-    font-size: 0.9rem;
-    text-align: center;
-    /* width: 750px;  */
+.text {
+  font-family: "inter", sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  /* width: 750px;  */
 
-    margin: 0;
-    /* max-width: 25ch; */
-   
-    
+  margin: 0;
+  /* max-width: 25ch; */
+
+
 
 }
 
@@ -60,6 +61,7 @@ align-items: center;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
 .card {
 
   border-radius: 12px;
@@ -77,9 +79,9 @@ align-items: center;
 
 .card img {
   width: 100%;
-  height: 160px;             
+  height: 160px;
   object-fit: cover;
-  border-radius: 10px 10px 0 0; 
+  border-radius: 10px 10px 0 0;
 }
 
 .card figcaption {
@@ -109,38 +111,39 @@ align-items: center;
 
 /* Web/Desktop view */
 @media (min-width: 720px) {
-  .imagesection{
-  background-color: #F2F7FF;
-  padding:40px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  justify-content: center;
-  padding-left:5rem;
-  padding-right:5rem;
-  
-}
-.imagetext{
- 
-  /* width: 100%; */
-  display: flex;
-  flex-direction: column;
-  /* margin: 0 auto 32px auto; */
-  justify-content: center;
-  align-items: center;
-}
+  .imagesection {
+    background-color: #F2F7FF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+  }
+
+  .imagetext {
+
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 0 auto 32px auto; */
+    justify-content: center;
+    align-items: center;
+  }
 
 
-.topic{
+  .topic {
     font-family: "inter", sans-serif;
     font-size: 1.5rem;
-    color:#164BAF;
+    color: #164BAF;
     text-align: center;
 
-}
+  }
 
 
-.text{
+  .text {
     font-family: "inter", sans-serif;
     font-size: 0.9rem;
     text-align: center;
@@ -148,74 +151,75 @@ align-items: center;
 
     margin: 0;
     /* max-width: 25ch; */
-   
-    
-
-}
-
-.container {
-  /*padding: 20px;*/
-  /* padding: 0 20px 20px 20px; */
-  /* max-width: 960px; */
-  padding-left: 5rem;
-  padding-right: 5rem;
-  margin: 0 auto;
-  text-align: center;
-}
 
 
 
-.grid {
-  background-color: #F2F7FF;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-.card {
+  }
 
-  border-radius: 12px;
-  transition: transform 0.2s ease;
-  height: auto;
-  border: 1px solid #ddd;
-  background-color: #FFFFFF;
+  .container {
+    /*padding: 20px;*/
+    /* padding: 0 20px 20px 20px; */
+    /* max-width: 960px; */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-  padding-bottom: 14px;
-}
 
-.card figure {
-  margin: 0;
-}
 
-.card img {
-  width: 100%;
-  height: 160px;             
-  object-fit: cover;
-  border-radius: 10px 10px 0 0; 
-}
+  .grid {
+    background-color: #F2F7FF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
 
-.card figcaption {
-  margin-top: 10px;
-  font-family: "inter", sans-serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  line-height: 1.6;
-  text-align: center;
-  color: #111;
-}
+  .card {
 
-.card:hover {
-  transform: scale(1.05);
-}
+    border-radius: 12px;
+    transition: transform 0.2s ease;
+    height: auto;
+    border: 1px solid #ddd;
+    background-color: #FFFFFF;
 
-.card h2 {
-  margin: 10px 0 5px;
-  font-size: 18px;
-}
+    padding-bottom: 14px;
+  }
 
-.card p {
-  font-size: 14px;
-  color: #aaa;
-}
+  .card figure {
+    margin: 0;
+  }
+
+  .card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .card figcaption {
+    margin-top: 10px;
+    font-family: "inter", sans-serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    color: #111;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+  }
+
+  .card p {
+    font-size: 14px;
+    color: #aaa;
+  }
 }
 
 /* Mobile

@@ -11,29 +11,29 @@ function Imagesection() {
       .catch((err) => console.log(err));
   }, [])
 
-return (
-    <section className="imagesection">
-<section className="imagetext"><h2 className="topic">Visualizing the Differences Between Planets</h2>
-    <p className="text">Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight
-        how vastly different terrestrial planets are from gas giants and ice giants.</p></section>
-      
+  return (
+    <section id="images" className="imagesection">
+      <section className="imagetext"><h2 className="topic">Visualizing the Differences Between Planets</h2>
+        <p className="text">Each planet in our solar system has unique physical characteristics. Visual comparisons help highlight
+          how vastly different terrestrial planets are from gas giants and ice giants.</p></section>
+
       {/* <div className="container"> */}
-     <div className="grid">
+      <div className="grid">
         {planets.map((planet, index) => (
-          
+
           <div className="card" key={index}>
             <figure>
-            <img src={planet.image} alt={planet.planet}/>
-            <figcaption>{planet.planet}<br/>
-            {planet.distanceFromSun} million km</figcaption>
+              <img src={planet.image} alt={planet.planet} />
+              <figcaption>{planet.planet}<br />
+                {planet.distanceFromSun} million km</figcaption>
             </figure>
           </div>
         ))}
       </div>
-    {/* </div> */}
+      {/* </div> */}
 
-   </section>
-)
+    </section>
+  )
 }
 
 
@@ -44,6 +44,6 @@ export default Imagesection
 
 
 
- 
- 
-    
+
+
+
