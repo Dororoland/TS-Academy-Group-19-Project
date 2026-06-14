@@ -38,7 +38,7 @@ export default function FormSec() {
 
         console.log(formUserInfo)
 
-        fetch ("https://whitebricks.com/tsacademy.php", {
+        const response = await fetch ("https://whitebricks.com/tsacademy.php", {
             method: "POST",
             headers: {
                 "Content-Type" : "application/x-www-form-urlencoded"},
