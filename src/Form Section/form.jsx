@@ -37,6 +37,7 @@ export default function FormSec() {
         data.append("message", formUserInfo.message);
 
         console.log(formUserInfo)
+        
 
         const response = await fetch ("https://whitebricks.com/tsacademy.php", {
             method: "POST",
@@ -46,6 +47,7 @@ export default function FormSec() {
             }
         )
 
+        console.log("Status", response.status);
         console.log('sent:', data)
 
         alert('Submitted')
