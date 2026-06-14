@@ -46,7 +46,7 @@ export default function FormSec() {
             }
         )
 
-        console.log('sent:', formUserInfo)
+        console.log('sent:', data)
 
         alert('Submitted')
         
