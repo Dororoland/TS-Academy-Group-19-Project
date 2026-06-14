@@ -29,13 +29,20 @@ export default function FormSec() {
     const submitHandler = async (e) => {
         e.preventDefault()
 
+        const data = new URLSearchParams();
+
+        data.append("fullName", formUserInfo.fullName);
+        data.append("email", formUserInfo.email);
+        data.append("phoneNumber", formUserInfo.phoneNumber);
+        data.append("message", formUserInfo.message);
+
         console.log(formUserInfo)
 
         fetch ("https://whitebricks.com/tsacademy.php", {
-            method: 'POST',
+            method: "POST",
             headers: {
-                'content-Type' : 'application.json'},
-            body: JSON.stringify(formUserInfo)
+                "Content-Type" : "application/x-www-form-urlencoded"},
+            body: data,
             }
         )
 
