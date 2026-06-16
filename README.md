@@ -32,7 +32,7 @@ This application recreates a provided mockup as a fully working React web app. I
 
 | # | Name | GitHub |
 |---|------|--------|
-| 1 | Doro Roland _(Team Lead)_ | https://github.com/Dororoland |
+| 1 | Doro Roland Oghenerume _(Team Lead)_ | https://github.com/Dororoland |
 | 2 | Joan Ikwen _(Assistant Team Lead)_ | https://github.com/jojoIK |
 | 3 | Ijeoma Ejeh | https://github.com/ijeomagodspower |
 | 4 | Odunayo Ajayi| https://github.com/Odunayo1-code |
