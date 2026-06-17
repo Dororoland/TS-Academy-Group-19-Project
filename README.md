@@ -61,6 +61,7 @@ This application recreates a provided mockup as a fully working React web app. I
 | `Footer`       | About section, links, copyright              | Emmanuel Benjamin, Favour Gabriel                           |
 | `App.jsx`      | Root component, section layout               | Doro Roland, Joan Ikwen                                     |
 
+Form section, favicon and buttons in header section were corrected to match recommendations passed across platforms concerning the capstone project. The entire team contributed to these corrections/ammendments via live coding sessions.
 ---
 
 ## Prerequisites
